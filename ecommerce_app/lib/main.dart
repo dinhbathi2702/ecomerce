@@ -1,3 +1,4 @@
+import 'package:ecommerce_app/detail_user/detail_user.dart';
 import 'package:ecommerce_app/login/login.dart';
 import 'package:flutter/material.dart';
 
@@ -16,13 +17,7 @@ void main() {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-          appBar: AppBar(
-            // Here we take the value from the MyHomePage object that was created by
-            // the App.build method, and use it to set our appbar title.
-            title: const Text('demo'),
-          ),
-          body: const Login())));
+      home: DetailUser()));
 }
 
 // class MyApp extends StatelessWidget {
